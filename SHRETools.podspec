@@ -10,9 +10,9 @@ s.license      = "MIT"
 s.license      = { :type => "MIT"， :file => "LICENSE" }
 s.author             = { "sunhao" => "sunhao@***.com" }
 s.platform     = :ios
-s.source       = { :git => "https://github.com/yongqianvip/iOS_Category.git"， :tag => "0.0.1" }
+s.source       = { :git => "https://github.com/bill19/RegularExpressionDemo.git"， :tag => "0.0.1" }
 s.source_files  = "Classes"， "RegularExpressionDemo/SHRETools/*.{h，m}"
 s.exclude_files = "Classes/Exclude"
-s.public_header_files = "RegularExpressionDemo/SHRETools/**/*.h"
+s.public_header_files = "RegularExpressionDemo/SHRETools/*.h"
 s.requires_arc = true
 end
